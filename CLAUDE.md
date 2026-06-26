@@ -16,7 +16,8 @@
      5. Or run /init in Claude Code to auto-generate a starter, then
         merge in sections from this template
 
-     Created by Dan Rosenthal (workflows.io) -->
+     Customized by Uday Kang (Martechs), adapted from the Company OS
+     Starter Kit by Dan Rosenthal / workflows.io. -->
 
 
 ## Setup Mode (READ THIS FIRST)

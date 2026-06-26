@@ -6,15 +6,13 @@
   <img src="https://img.shields.io/badge/License-MIT-blue?style=for-the-badge" alt="MIT License" />
 </p>
 
-# Company OS Starter Kit
+# GTM OS Kit
 
 **Build your own Company OS with Claude Code.**
 
-We're building an AI-native GTM services company. We scaled to 20 people in under 9 months. Bootstrapped. Claude Code has become a huge part of how we operate.
+A Company OS gives Claude persistent context about your business — your tools, processes, voice, and team — so every session starts already knowing who you are. This kit is the starting point: the folder structure, five GTM skills, safety hooks, and a setup guide that takes you from clone to a working system in a single conversation.
 
-This is the starter kit for building the same kind of system. The folder structure, the skills, the safety hooks, and the setup guide we wish we had when we started.
-
-Built by [Dan Rosenthal](https://linkedin.com/in/dan-m-rosenthal) at [workflows.io](https://workflows.io). Full setup guide on [Notion](https://workflowsio.notion.site/Company-OS-Starter-Kit-33a6a857e59281a4884bd9638a991c05).
+Curated and customized by [Uday Kang](https://www.linkedin.com/in/uday-singh-kang/) at **Martechs**. Adapted from the open-source [Company OS Starter Kit](https://github.com/Workflowsio/company-os-starter-kit) by workflows.io.
 
 ---
 
@@ -33,7 +31,7 @@ At the center is `CLAUDE.md`, the one file Claude reads on load. It points to ev
 | File | What it does |
 |------|-------------|
 | `CLAUDE.md` | The master template. Your AI's operating system. Fill this in first. |
-| `PLUGIN-GUIDE.md` | How to install the Workflows Engineering Plugin (bundled in plugin/, not an external marketplace install) |
+| `PLUGIN-GUIDE.md` | How to install the workflow commands plugin (bundled in plugin/, not an external marketplace install) |
 | `LICENSE` | MIT |
 | `.gitignore` | Ignores session logs, credentials, OS files, editor files |
 
@@ -73,7 +71,7 @@ Copy this into your project and fill it in. Claude will interview you.
 | `gtm-skills/discovery-prep.md` | Pre-call research briefs and conversation prep |
 | `gtm-skills/guide.md` | How to add, customize, and create new skills |
 
-### `plugin/` - Workflows Engineering Plugin
+### `plugin/` - Workflow Commands Plugin
 
 Bundled locally in this repo (not an external install). Copy to your project to get structured workflow commands.
 
@@ -99,8 +97,8 @@ Bundled locally in this repo (not an external install). Copy to your project to 
 
 ```bash
 # 1. Clone
-git clone https://github.com/Workflowsio/company-os-starter-kit.git
-cd company-os-starter-kit
+git clone https://github.com/udaykang-byte/gtm-os-kit.git
+cd gtm-os-kit
 
 # 2. Copy blueprint to your project
 cp -r blueprint/ /path/to/your-project/
@@ -198,12 +196,14 @@ Start with `CLAUDE.md` + `company/overview.md`. Add more as you go. A Company OS
 
 ## Credits
 
-Built by [Dan Rosenthal](https://linkedin.com/in/dan-m-rosenthal) at [workflows.io](https://workflows.io).
+Curated and customized by [Uday Kang](https://www.linkedin.com/in/uday-singh-kang/) at Martechs.
 
-The Workflows Engineering Plugin is built on top of [Compound Engineering](https://github.com/EveryInc/compound-engineering-plugin) by [EveryInc](https://github.com/EveryInc). The core workflow commands (plan, work, review, swarm, brainstorm) come from their excellent open-source foundation.
+Adapted from the [Company OS Starter Kit](https://github.com/Workflowsio/company-os-starter-kit) by [Dan Rosenthal](https://linkedin.com/in/dan-m-rosenthal) / [workflows.io](https://workflows.io).
+
+The workflow commands plugin is built on top of [Compound Engineering](https://github.com/EveryInc/compound-engineering-plugin) by [EveryInc](https://github.com/EveryInc). The core workflow commands (plan, work, review, swarm, brainstorm) come from their open-source foundation.
 
 ---
 
-**[Follow me on LinkedIn](https://linkedin.com/in/dan-m-rosenthal)** for more on building with AI, GTM systems, and context engineering. I post about what we're building at workflows.io and share the frameworks behind it.
+**[Follow Uday Kang on LinkedIn](https://www.linkedin.com/in/uday-singh-kang/)** for more on GTM systems, automation, and building with AI.
 
 **Star this repo** if you found it useful.

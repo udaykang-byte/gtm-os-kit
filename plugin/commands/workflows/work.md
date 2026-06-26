@@ -303,7 +303,7 @@ This command takes a work document (plan, specification, or todo file) and execu
 
    ---
 
-   [![Company OS](https://img.shields.io/badge/Workflows-Engineered-6366f1)](https://github.com/Workflowsio/company-os-starter-kit) Generated with [Claude Code](https://claude.com/claude-code)
+   [![GTM OS Kit](https://img.shields.io/badge/GTM_OS-Kit-6366f1)](https://github.com/udaykang-byte/gtm-os-kit) Generated with [Claude Code](https://claude.com/claude-code)
    EOF
    )"
    ```

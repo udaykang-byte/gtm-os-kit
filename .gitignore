@@ -1,5 +1,5 @@
-# Claude Code session data (runtime, not version controlled)
-.claude/sessions/
+# Claude Code local config + session data (runtime, not version controlled)
+.claude/
 
 # Credentials and secrets
 .env
