@@ -8,14 +8,11 @@ Structured workflow commands for Claude Code. Included in this starter kit.
 
 A plugin that adds structured commands for planning, building, and reviewing work. Instead of ad-hoc prompting, you get a repeatable pipeline: plan, execute, review.
 
-Built on top of [**Compound Engineering**](https://github.com/EveryInc/compound-engineering-plugin) by EveryInc. The workflows.io Company OS Starter Kit extended that foundation:
-
-**What the starter kit added:**
-- Updated tool references to match current Claude Code capabilities (subagents, hooks, skills)
-- Added the `/workflows:swarm` command for parallel multi-agent execution
+Built on top of [**Compound Engineering**](https://github.com/EveryInc/compound-engineering-plugin) by EveryInc, extended by this starter kit with:
+- Tool references matched to current Claude Code capabilities (subagents, hooks, skills)
+- The `/workflows:swarm` command for parallel multi-agent execution
 - Improved plan deepening with parallel research agents
-- Removed deprecated tool calls and outdated patterns
-- Adapted prompts for non-engineering use cases (GTM, content, ops)
+- Prompts tuned for GTM, content, and ops use cases, not just engineering
 
 The core workflow (plan, work, review, brainstorm, compound) is inherited from Compound Engineering. Credit to that team for building something genuinely useful.
 

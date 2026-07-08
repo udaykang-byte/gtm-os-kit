@@ -196,11 +196,9 @@ Start with `CLAUDE.md` + `company/overview.md`. Add more as you go. A Company OS
 
 ## Credits
 
-Curated and customized by [Uday Kang](https://www.linkedin.com/in/uday-singh-kang/) at Martechs.
+Curated and maintained by [Uday Kang](https://www.linkedin.com/in/uday-singh-kang/) at Martechs, built on the open-source [Company OS Starter Kit](https://github.com/Workflowsio/company-os-starter-kit) by [Dan Rosenthal](https://linkedin.com/in/dan-m-rosenthal) / [workflows.io](https://workflows.io).
 
-Adapted from the [Company OS Starter Kit](https://github.com/Workflowsio/company-os-starter-kit) by [Dan Rosenthal](https://linkedin.com/in/dan-m-rosenthal) / [workflows.io](https://workflows.io).
-
-The workflow commands plugin is built on top of [Compound Engineering](https://github.com/EveryInc/compound-engineering-plugin) by [EveryInc](https://github.com/EveryInc). The core workflow commands (plan, work, review, swarm, brainstorm) come from their open-source foundation.
+The workflow commands plugin is built on [Compound Engineering](https://github.com/EveryInc/compound-engineering-plugin) by [EveryInc](https://github.com/EveryInc); the core commands (plan, work, review, swarm, brainstorm) come from their open-source foundation.
 
 ---
 
